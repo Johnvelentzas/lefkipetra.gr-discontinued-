@@ -1,0 +1,107 @@
+.page-end {
+    display: block;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+    padding-top: 1rem;
+}
+
+.section {
+    width: 96%;
+    margin-left: 2%;
+    text-align: left;
+}
+
+.section-title {
+    display: block;
+    color: grey;
+    line-height: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    margin-bottom: 1rem;
+}
+
+.dotted-line {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    height: 1px;
+    background-color: rgb(200, 200, 200);
+}
+
+#socials {
+    text-align: left;
+}
+
+.social-icon-container {
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    margin-left: 1rem;
+}
+
+.social-link {
+    width: inherit;
+    height: inherit;
+}
+
+.social-icon {
+    width: inherit;
+    height: inherit;
+    display: inline-block;
+    border-radius: 0.8rem;
+}
+
+#facebook {
+    margin-left: 2%;
+}
+
+.info-icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+.info-box {
+    display: block;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.info-link {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+.info-text-container {
+    display: inline-block;
+    width: 98%;
+    margin-left: 2%;
+}
+
+.info-text {
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#logo img {
+    width: auto;
+    height: 20vh;
+}
+
+#partners img {
+    display: inline-block;
+    height: 5rem;
+    width: auto;
+}
+
+#copyright {
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+#copyright-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}

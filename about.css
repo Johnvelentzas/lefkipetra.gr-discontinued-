@@ -1,0 +1,61 @@
+.description-section {
+    min-height: 30rem;
+    background-color: rgb(240, 240, 240);
+    margin-top: 8rem;
+    padding-top: 4rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    padding-bottom: 5rem;
+}
+
+.description-text {
+    font-weight: 100;
+    text-align: left;
+    font-size: large;
+    line-height: 1.6rem;
+    letter-spacing: 0.05rem;
+    color: rgb(50, 50, 50);
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 2rem;
+    animation-duration: 0.8s;
+    animation-name: fadeUp;
+}
+
+@media only screen and (min-width: 800px) {
+    .description-section {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .description-section {
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+}
+
+@keyframes fadeUp {
+    from {
+        transform: translateY(2rem);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.tour-div {
+    width: 100%;
+    margin-top: 10rem;
+}
+
+.tour-video {
+    height: 100vh;
+    overflow: hidden;
+    max-width: 100%;
+    position: sticky;
+    left: 0;
+    top: 0;
+}

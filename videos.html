@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        Lefki Petra | Videos
+    </title>
+    <meta lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="videos.css">
+    <link rel="stylesheet" href="pageend.css">
+    <script type="text/javascript" src="functions.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Roboto+Condensed&family=Roboto+Mono:wght@700&family=Roboto+Slab:wght@300&family=Roboto:wght@900&family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+
+<body onresize="onResize()" class="scrollable">
+    <header>
+        <img onclick="openmenu()" class="menu-icon nav-icon" src="img/menuicon.png" alt="menu">
+        <nav class="navigation">
+            <a onclick="scrollToTop()">
+                <img src="img/iconblack.png" alt="Lefki Petra" style="height: 2rem; width: 2rem;">
+            </a>
+            <a class="translateable navigation-link" id="photos" href=" photos.html ">Photos</a>
+            <a class="translateable navigation-link" id="videos" href="videos.html ">Videos</h1>
+            <a class="translateable navigation-link" id="about" href="aboutus.html ">About us</a>
+            <a class="navigation-link" id="close" onclick="closemenu()">
+                <img src="img/closeicon.png" alt="close" id="close-icon">
+            </a>
+        </nav>
+        <img onclick="openlanguagemenu()" class="language-icon nav-icon inline-block" src="img/globe1.png" alt="language">
+        <div class="language-switcher ">
+            <a>
+                <img onclick="changeLanguageTo('gr');changeTextLanguageTo('gr'); closelanguagemenu()" class="language-button " id="lang-gr " src="img/gricon.png " alt="🇬🇷">
+            </a>
+            <a>
+                <img onclick="changeLanguageTo('en');changeTextLanguageTo('en'); closelanguagemenu()" class="language-button " id="lang-en " src="img/gbicon.png " alt="🇬🇧">
+            </a>
+        </div>
+
+    </header>
+
+    <div class="main-content">
+        <video class="video" controls>
+            <source src="Videos/IMG_7757.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="page-end">
+        <div class="dotted-line"></div>
+        <div class="section" id="socials">
+            <span class="section-title translateable" id="socials-lang">Socials:</span>
+            <div class="social-icon-container" id="facebook">
+                <a class="social-link" href="https://www.facebook.com/lefkipetra">
+                    <img class="social-icon" src="img/facebookicon.png">
+                </a>
+            </div>
+            <div class="social-icon-container" class="instagram">
+                <a class="social-link" href="https://www.instagram.com/lefkipetra/">
+                    <img class="social-icon" src="img/instagramicon.png">
+                </a>
+            </div>
+            <div class="social-icon-container" class="whatsup">
+                <a class="social-link" href="https://api.whatsapp.com/send?phone=306977651312">
+                    <img class="social-icon" src="img/whatsup.png">
+                </a>
+            </div>
+        </div>
+        <div class="dotted-line"></div>
+        <div class="section" id="info">
+            <span class="section-title translateable" id="info-lang">Info:</span>
+            <div class="info-box" id="email">
+                <a class="info-link" href="mailto: lefkipetra@gmail.com">
+                    <div class="info-text-container">
+                        <span class="info-text">E | lefkipetra@gmail.com</span>
+                    </div>
+                </a>
+            </div>
+            <div class="info-box" id="phone">
+                <a class="info-link" href="tel:+30 2645092353">
+                    <div class="info-text-container">
+                        <span class="info-text">T | +30 2645092353</span>
+                    </div>
+                </a>
+            </div>
+            <div class="info-box" id="location">
+                <a class="info-link" href="https://goo.gl/maps/uvPAvjsDjubJqpaf9">
+                    <div class="info-text-container">
+                        <span class="info-text translateable" id="location-lang">Location | Ellomenou street 114, Nidri | Lefkada, Greece</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="dotted-line"></div>
+        <div class="section" id="partners">
+            <span class="section-title translateable" id="partners-lang">Partners:</span>
+            <img src="img/partners/eleniVakondiouDesignLab.png">
+            <img src="img/partners/Zylo.png">
+            <img src="img/partners/BlueInGreen.png">
+            <img src="img/partners/sunOfABeach.png">
+            <img src="img/partners/island fashion.png">
+            <img src="img/partners/naya tsalesi.webp">
+            <img src="img/partners/tommy k.webp">
+            <img src="img/partners/bnm.webp">
+            <img src="img/partners/zografos.jpg">
+            <img src="img/partners/macaw waves.webp">
+            <img src="img/partners/aggel.png">
+            <img src="img/partners/dirty deeds.svg">
+            <img src="img/partners/moeha.svg">
+            <img src="img/partners/goupi.png">
+            <img src="img/partners/galsart.png">
+            <img src="img/partners/evard.png">
+            <img src="img/partners/ayios.png">
+        </div>
+        <div class="dotted-line"></div>
+        <div class="section" id="copyright">
+            <span id="copyright-text">Copyright lefkipetra © 2022</span>
+        </div>
+    </div>
+</body>
+
+<script src="languagecontrolnav.js"></script>
+<script src="languagecontrolvideos.js"></script>
+
+</html>
